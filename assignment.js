@@ -66,6 +66,9 @@ console.log("Total Brick Needed:",brickCalc);
     }
  }
 
- var friends=['nova','subah','mohaimin','tareq','ferdouse','soleiman'git push];
+ var friends=['nova','subah','mohaimin','tareq','ferdouse','soleiman'];
+ var friends1 = [];
  var shortestFriendsName = tinyFriend(friends);
+ var shortestFriendsName1 = tinyFriend(friends1);
  console.log(shortestFriendsName);
+ console.log(shortestFriendsName1);
