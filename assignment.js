@@ -41,7 +41,7 @@ function brickCalculator(buildingHeight){
         return totalBrick1
     }
     else{
-        totalBrick2 = (buildingHeight-20)*10*1000 + 20*12*1000 + 10*15*1000;
+        totalBrick2 = (buildingHeight-20)*10*1000 + 10*12*1000 + 10*15*1000;
         return totalBrick2;
     }
 }
