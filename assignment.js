@@ -34,16 +34,14 @@ function brickCalculator(buildingHeight){
     }
     else if(buildingHeight<=10){
         totalBrick = buildingHeight*15*1000;
-        return totalBrick;
     }
     else if(buildingHeight>10 || buildingHeight<=20){
-        totalBrick1 = (buildingHeight-10)*12*1000 + 10*15*1000;
-        return totalBrick1
+        totalBrick = (buildingHeight-10)*12*1000 + 10*15*1000;
     }
     else{
-        totalBrick2 = (buildingHeight-20)*10*1000 + 10*12*1000 + 10*15*1000;
-        return totalBrick2;
+        totalBrick = (buildingHeight-20)*10*1000 + 10*12*1000 + 10*15*1000;
     }
+    return totalBrick;
 }
 let brickCalc = brickCalculator(50);
 console.log("Total Brick Needed:",brickCalc);
