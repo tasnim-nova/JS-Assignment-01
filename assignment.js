@@ -10,7 +10,7 @@ function feetToMIle(feet){
     }
 }
 var result= feetToMIle(-50) ;
-console.log(result);
+console.log("Converting Feet to Mile=",result);
 
 // Wood Calculating Program
 
@@ -24,7 +24,7 @@ function woodCalculator(chair,table,bed){
     }
 }
 var woodNeeded = woodCalculator(3,6,4);
-console.log("Wood Calculation for chair,Table, Bed: ", woodNeeded);
+console.log("Total Wood Calculation :", woodNeeded);
 
 // Brick Calculating Program
 
@@ -70,5 +70,5 @@ console.log("Total Brick Needed:",brickCalc);
  var friends1 = [];
  var shortestFriendsName = tinyFriend(friends);
  var shortestFriendsName1 = tinyFriend(friends1);
- console.log(shortestFriendsName);
- console.log(shortestFriendsName1);
+ console.log("Your Tiny Friend:",shortestFriendsName);
+ console.log("Your Tiny Friend:",shortestFriendsName1);
